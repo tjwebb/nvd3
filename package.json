@@ -14,7 +14,7 @@
     "d3-browserify": "^3.4.12"
   },
   "description": "* Various fixes across the board",
-  "main": "nv.d3.js",
+  "main": "index.js",
   "directories": {
     "example": "examples",
     "test": "test"
