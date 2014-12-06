@@ -1,6 +1,6 @@
 {
   "name": "nvd3",
-  "version": "0.0.1",
+  "version": "1.1.15-b",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.3.0",
@@ -9,5 +9,34 @@
     "grunt-contrib-concat": "~0.2.0",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-cssmin": "~0.6.2"
-  }
+  },
+  "dependencies": {
+    "d3-browserify": "^3.4.12"
+  },
+  "description": "* Various fixes across the board",
+  "main": "nv.d3.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjwebb/nvd3.git"
+  },
+  "keywords": [
+    "d3",
+    "d3.js",
+    "nvd3",
+    "nvd3.js",
+    "browserify"
+  ],
+  "author": "Travis Webb <me@traviswebb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjwebb/nvd3/issues"
+  },
+  "homepage": "https://github.com/tjwebb/nvd3"
 }
